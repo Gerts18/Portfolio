@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>Portfolio Porject</h1>
+      <h1>Portfolio Project</h1>
     </>
   )
 }

@@ -1,4 +1,4 @@
-/*Variables helps us define some properties by default in a single place, and the import them to use it in another places, making easier change the value later*/
+/*Variables helps us define some properties by default in a single place, and import them to use them in another places, making easier change the value later*/
 :root {
     /*Colors*/
     --color-text: #fff;

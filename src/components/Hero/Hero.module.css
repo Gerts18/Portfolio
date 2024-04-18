@@ -45,3 +45,27 @@
     padding: 17px 26px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
 }
+
+.heroImg{
+    width: 50%;
+    z-index: 1;
+
+    animation-name: floating; /*Define the name of the animation*/
+    animation-duration: 3s; /* Define the duration of the animation */
+    animation-iteration-count: infinite; /* How many times the animation will run*/
+    animation-timing-function: ease-in-out ; /*What the movement looks like*/
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0,0px);
+
+    }
+    50%{
+        transform: translate(0, 10px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}

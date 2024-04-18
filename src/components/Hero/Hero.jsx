@@ -4,15 +4,16 @@ import styles from './Hero.module.css'
 
 const Hero = () => {
   return (
-    <section>
-        <div>
-            <h1>Hi, I'm German</h1>
-            <p>
+    <section className={styles.container}>
+        <div className={styles.content}>
+            <h1 className={styles.title}>Hi, I'm German</h1>
+            <p className={styles.description}>
                 Im a student who loves programming, take a look of what I'm capable of.
             </p>
-            <a href="mailto:germants100@gmail.com">Contact Me</a>
+            <a className={styles.contactBtn} href="mailto:germants100@gmail.com">Contact Me</a>
         </div>
-        <img src={getImageUrl('hero/heroImage.png')} alt="Hero image of me" />
+        <img className={styles.heroImg} 
+        src={getImageUrl('hero/heroImage.png')} alt="Hero image of me" />
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
     </section>

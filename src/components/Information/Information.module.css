@@ -1,1 +1,43 @@
-@import '../../vars.css'
+@import '../../vars.css';
+
+.container{
+    display: flex;
+    color: var(--color-text);
+    width: 615px;
+    height: 128px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 15px 15px;
+    gap: 5px;
+}
+
+.image{
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.title{
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.25px;
+}
+
+.description{
+    font-family: Outfit;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.25px;
+}

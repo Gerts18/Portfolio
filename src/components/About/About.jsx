@@ -10,7 +10,8 @@ const About = () => {
             <h1>About me</h1>
             <img src={getImageUrl('about/aboutImage.png')} alt="" />
             <div className={styles.informationBlock}>
-                
+                <Information title={'What i Like'}/>
+                <Information title={'My passions'}/>
             </div>
         </div>
     </section>

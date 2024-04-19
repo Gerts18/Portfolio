@@ -1,6 +1,7 @@
 import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './About.module.css'
+import Information from '../Information/Information'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
             <h1>About me</h1>
             <img src={getImageUrl('about/aboutImage.png')} alt="" />
             <div className={styles.informationBlock}>
-                {/* Here the components of image */}
+                
             </div>
         </div>
     </section>

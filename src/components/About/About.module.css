@@ -14,7 +14,7 @@
     padding: 40px 40px;
 }
 
-.items{
+.aboutItems{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -36,7 +36,7 @@
     letter-spacing: 1.25px;
 }
 
-.informationBlock{
+.informationItems{
     display: flex;
     flex-direction: column;
     gap: 40px;

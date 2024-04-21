@@ -5,7 +5,7 @@ import Information from '../Information/Information'
 
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id='about'>
             <div className={styles.aboutItems}>
                 <h1 className={styles.title}>About Me</h1>
                 <img className={styles.image} src={getImageUrl('about/aboutImage.png')} alt="" />

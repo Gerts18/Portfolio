@@ -1,14 +1,12 @@
 @import '../../vars.css';
 
 .container{
-    width: 1211px;
-    height: 639px;
     flex-shrink: 0;
     position: relative;
     display: flex;
     z-index: 1;
     margin-top: 25px;
-    margin: 115px 115px;
+    margin: 10%;
     background: rgba(12, 12, 12, 0.60);;
     border-radius: 15px;
     padding: 40px 40px;
@@ -34,6 +32,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.25px;
+    text-transform: uppercase;
 }
 
 .informationItems{
@@ -41,4 +40,23 @@
     flex-direction: column;
     gap: 40px;
     justify-content: center;
+}
+
+@media screen and (max-width: 830px){
+    .container{
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .informationItems{
+        margin-top: 30px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }

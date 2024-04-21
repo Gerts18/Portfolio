@@ -7,6 +7,14 @@
     flex-shrink: 0;
     border-radius: 20px;
     align-items: center;
+    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) -60.08%, rgba(255, 255, 255, 0.00) 66.02%);
+    background-size: 0 100%;
+    background-repeat: no repeat;
+    transition: 0.4s; /*Time any transition take*/
+}
+
+.container:hover{
+    background-size: 100% 100%;
 }
 
 .textContainer{

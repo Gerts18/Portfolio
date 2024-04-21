@@ -7,6 +7,8 @@
     flex-shrink: 0;
     border-radius: 20px;
     align-items: center;
+    background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) -60.08%, rgba(255, 255, 255, 0.00) 66.02%);
+    background-size: 0 100%;
 }
 
 .textContainer{

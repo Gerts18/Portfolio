@@ -1,6 +1,7 @@
 import React from 'react'
 
 import skills from '../../data/skills.json'
+import history from '../../data/history.json'
 import { getImageUrl } from '../../utils'
 
 const Experience = () => {
@@ -21,7 +22,32 @@ const Experience = () => {
                 }
             </div>
             <div>
-                
+                <ul>
+                  {
+                    history.map((experience, id) => {
+                      return (
+                        <li key={id} >
+                          <img src={getImageUrl(experience.imageSrc)} alt= {`${experience.organization} logo`} />
+                          <div>
+                            <h3>{`${experience.role}, ${experience.organization}`} </h3>
+                            <p>
+                            {`${experience.startDate}-${experience.endDate}`}
+                            </p>
+                            <ul>
+                              {experience.experiences.map((exp, id) => {
+                                return (
+                                  <li key={id}>
+                                    {exp}
+                                  </li>
+                                )
+                              })}
+                            </ul>
+                          </div>
+                        </li>
+                      )
+                    })
+                  }
+                </ul>
             </div>
         </div>
     </section>

@@ -1,13 +1,13 @@
 import React from 'react'
 import projects from '../../data/projects.json' 
 import ProjectCard from './ProjectCard'
+import style from './Projects.module.css'
 
 const Projects = () => {
   return (
-    <div>
-      <section>
-        <h2>Projects</h2>
-        <div>
+      <section className={style.container}>
+        <h2 className={style.title}>Projects</h2>
+        <div className={style.projects}>
             {
                 projects.map((project, id) => {
                     return (
@@ -17,7 +17,6 @@ const Projects = () => {
             }
         </div>
       </section>
-    </div>
   )
 }
 

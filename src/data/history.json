@@ -1,0 +1,18 @@
+[
+    {
+        "role": "Programer/Investigator",
+        "organization": "Delfin Program",
+        "startDate": "June 2023",
+        "endDate": "August 2023",
+        "experiences": ["Learned about Computer Vision", "I create a CNN"],
+        "imageSrc": "history/pDelfin.png"
+    },
+    {
+        "role": "Programer/Student",
+        "organization": "One Oracle Next Education Bootcamp",
+        "startDate": "January 2024",
+        "endDate": "July 2024",
+        "experiences": ["Learned about Web Developing", "Specialization on Front End"],
+        "imageSrc": "history/alura.png"
+    }
+]

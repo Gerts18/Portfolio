@@ -1,14 +1,15 @@
 import React from 'react'
+import { getImageUrl } from '../../utils'
 
-const ProjectCard = () => {
+const ProjectCard = ({project : {title, imageSrc, description, skills, demo, source}}) => {
     return(
         <div>
-            <img src={getImageUrl(project.imageSrc)} alt={`image of ${project.title}`} />
-            <h3>{project.title} </h3>
-            <p>{project.description}</p>
+            <img src={getImageUrl(imageSrc)} alt={`image of ${title}`} />
+            <h3>{title} </h3>
+            <p>{description}</p>
             <ul>
                 {
-                    project.skills.map((skill,id) => {
+                    skills.map((skill,id) => {
                         return (
                             <li key={id}>
                                 {skill}
@@ -18,8 +19,8 @@ const ProjectCard = () => {
                 }
             </ul>
             <div>
-                <a href={project.demo}>Demo</a>
-                <a href={project.source}>Source</a>
+                <a href={demo}>Demo</a>
+                <a href={source}>Source</a>
             </div>
         </div>
     )

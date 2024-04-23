@@ -1,11 +1,11 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Computer Vision Project",
+      "imageSrc": "projects/PapayasDetection.png",
+      "description": "I participated in a two-month project where the primary focus was on utilizing neural networks and computer vision methods, specifically in Python and the central theme revolved around detecting the maturity of fruits",
+      "skills": ["Python", "OpenCV", "Ultralytics"],
+      "demo": "",
+      "source": "https://github.com/Gerts18/Computer-Vision-Project"
     },
     {
       "title": "Project B",

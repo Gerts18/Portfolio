@@ -2,12 +2,11 @@
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 10px;
     background: linear-gradient(180deg, #576CBC -14.75%, #132A53 50.1%);
     box-shadow: 0px 16px 14px 0px #04152D;
     padding: 18px 24px;
-    max-width: 345px;
 }
 
 .image {

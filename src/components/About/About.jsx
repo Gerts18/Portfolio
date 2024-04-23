@@ -11,17 +11,17 @@ const About = () => {
                 <img className={styles.image} src={getImageUrl('about/ORDENADOR.png')} alt="Imagen de Ordenador de FREEPIK" />
             </div>
             <div className={styles.informationItems}>
-                <Information title={'Frontend Developer'}
+                <Information title={'Frontend'}
                     description={'I create responsive Web Pages with good knowledge about design.'}
                     path={'about/cursorIcon.png'}    
                 />
-                <Information title={'Backend Developer'}
+                <Information title={'Backend'}
                     description={'I use the best practices to manage data.'}
                     path={'about/serverIcon.png'}
                 />
-                <Information title={'General Knowledge'}
-                    description={'I love programming and learn about tech.'}
-                    path={'about/uiIcon.png'}
+                <Information title={'General'}
+                    description={'I like to play videogames and spent time programming and learning new skills.'}
+                    path={'about/gamepad2.png'}
                 />
             </div>
     </section>

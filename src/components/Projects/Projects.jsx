@@ -5,7 +5,7 @@ import style from './Projects.module.css'
 
 const Projects = () => {
   return (
-      <section className={style.container}>
+      <section className={style.container} id='projects'>
         <h2 className={style.title}>Projects</h2>
         <div className={style.projects}>
             {

@@ -8,7 +8,9 @@ const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm German</h1>
             <p className={styles.description}>
-                Im a student who loves programming, take a look of what I'm capable of.
+                I'm a student who loves programming and web development.
+                <br />
+                Take a look of what I'm capable of.
             </p>
             <a className={styles.contactBtn} href="mailto:germants180@gmail.com">Contact Me</a>
         </div>

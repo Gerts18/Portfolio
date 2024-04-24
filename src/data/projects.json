@@ -2,7 +2,7 @@
     {
       "title": "Computer Vision Project",
       "imageSrc": "projects/PapayasDetection.png",
-      "description": "I participated in a two-month project where the primary focus was on utilizing neural networks and computer vision methods, specifically in Python and the central theme revolved around detecting the maturity of fruits.",
+      "description": "I was part of a team work in a two-month project where the primary focus was on utilizing neural networks and computer vision methods, specifically in Python and the main subject was about detecting the maturity of fruits.",
       "skills": ["Python", "OpenCV", "Ultralytics"],
       "demo": "",
       "source": "https://github.com/Gerts18/Computer-Vision-Project"

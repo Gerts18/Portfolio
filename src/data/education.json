@@ -1,0 +1,10 @@
+[
+    {
+        "role": "Programer/Student",
+        "organization": "One Oracle Next Education Bootcamp",
+        "startDate": "January 2024",
+        "endDate": "July 2024",
+        "experiences": ["Learned about Web Developing", "Specialization on Front End"],
+        "imageSrc": "history/alura.png"
+    }
+]

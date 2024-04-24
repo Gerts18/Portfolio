@@ -2,16 +2,10 @@
 
 .container{
     color: var(--color-text);
-    margin-top: 80px;
+    margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 80px;
-}
-
-.content{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+    margin-bottom: 79px;
 }
 
 .title{
@@ -22,11 +16,16 @@
     text-transform: uppercase;
 }
 
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .skillsContainer{
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
-    margin-top: 20px;
 }
 
 .skill{
@@ -36,7 +35,7 @@
     gap: 11px;
 }
 
-.skillImageContainer{
+.skillImageContaniner{
     background-color: var(--color-secondary);
     border-radius: 100%;
     display: flex;
@@ -46,7 +45,7 @@
     height: 120px;
 }
 
-.skillImageContainer img {
+.skillImageContaniner img {
     width: 75px;
 }
 
@@ -56,14 +55,16 @@
     font-weight: 500;
 }
 
-.experiencesContainer{
+.experiencesContaniner{
     display: flex;
     flex-direction: column;
     gap: 40px;
-    margin-top: 20px;
+    align-items: end;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.item{
+.historyItem{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,25 +75,25 @@
     padding: 24px;
 }
 
-.item img {
+.historyItem img {
     width: 50px;
 }
 
-.itemDetails{
+.historyItemDetails{
     font-family: var(--font-roboto);
 }
 
-.itemDetails h3 {
+.historyItemDetails h3{
     font-size: 30px;
     font-weight: 500;
 }
 
-.itemDetails p {
+.historyItemDetails p{
     font-size: 20px;
     font-weight: lighter;
 }
 
-.itemDetails ul {
+.historyItemDetails ul{
     margin-top: 6px;
     list-style-position: inside;
     font-size: 25px;

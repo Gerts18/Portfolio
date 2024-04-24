@@ -40,7 +40,7 @@ const Experience = () => {
                                     alt={`${experience.organization} logo`} />
                                     <div className={style.itemDetails}>
                                         <h3>{`${experience.role}, ${experience.organization}`}</h3>
-                                        <p>{`${experience.startDate}-${experience.endDate}`}</p>
+                                        <p>{`${experience.startDate} - ${experience.endDate}`}</p>
                                         <ul>
                                             {experience.experiences.map((exp, id) => {
                                                 return (
@@ -68,7 +68,7 @@ const Experience = () => {
                                     alt={`${experience.organization} logo`} />
                                     <div className={style.itemDetails}>
                                         <h3>{`${experience.role}, ${experience.organization}`}</h3>
-                                        <p>{`${experience.startDate}-${experience.endDate}`}</p>
+                                        <p>{`${experience.startDate} - ${experience.endDate}`}</p>
                                         <ul>
                                             {experience.experiences.map((exp, id) => {
                                                 return (

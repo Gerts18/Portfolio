@@ -5,7 +5,6 @@
 <p> I used Vite tool to build the project and React library as main base </p>
 <br>
 <h2>Some methods used: </h2>
-<br>
 <ul>
   <li>Css Modules</li>
   <li>Css Variables</li>

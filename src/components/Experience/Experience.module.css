@@ -72,7 +72,7 @@
     border-radius: 10px;
     background: linear-gradient(90deg, #19376D 0%, rgba(25, 55, 109, 0.00) 100%);
     padding: 24px;
-    max-width: 90%;
+    max-width: 50%;
 }
 
 .item img {

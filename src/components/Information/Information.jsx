@@ -8,7 +8,7 @@ const Information = ({title, description, path}) => {
         <img className={styles.image} src={getImageUrl(path)} alt="" />
         <div className={styles.textContainer}>
             <h3 className={styles.title}>{title}</h3>
-            <p className={styles.description}>{description} </p>
+            <p className={styles.description}> {description} </p>
         </div>
     </section>
   )

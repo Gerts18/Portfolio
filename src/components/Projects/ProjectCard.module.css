@@ -63,6 +63,7 @@
     margin: 26px 0;
     display: flex;
     justify-content: flex-start;
+    gap: 40px;
 }
 
 .link {

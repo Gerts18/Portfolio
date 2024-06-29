@@ -6,5 +6,13 @@
         "endDate": "July 2024",
         "experiences": ["Learned about Web Developing", "Specialization on Front End"],
         "imageSrc": "history/alura.png"
+    },
+    {
+        "role": "Programer/Student",
+        "organization": "Instituto Tecnológico de Morelia",
+        "startDate": "August 2021",
+        "endDate": "June 2025",
+        "experiences": ["Learned basic concepts of programming", "Adquired Knowledge about Computer Architecture", "Learned about Operating Sytems"],
+        "imageSrc": "history/Itmorelia.png"
     }
 ]

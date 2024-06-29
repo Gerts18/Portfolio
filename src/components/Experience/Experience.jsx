@@ -35,11 +35,12 @@ const Experience = () => {
                     {
                         history.map((experience, id) => {
                             return(
-                                <li className={style.item}>
+                                <li className={style.item} key={id}>
                                     <img src={getImageUrl(experience.imageSrc)} 
                                     alt={`${experience.organization} logo`} />
                                     <div className={style.itemDetails}>
-                                        <h3>{`${experience.role}, ${experience.organization}`}</h3>
+                                        <h3>{`${experience.role}`}</h3>
+                                        <h2>{`${experience.organization}`} </h2>
                                         <p>{`${experience.startDate} - ${experience.endDate}`}</p>
                                         <ul>
                                             {experience.experiences.map((exp, id) => {
@@ -63,11 +64,12 @@ const Experience = () => {
                     {
                         educations.map((experience, id) => {
                             return(
-                                <li className={style.item}>
+                                <li className={style.item} key={id}>
                                     <img src={getImageUrl(experience.imageSrc)} 
                                     alt={`${experience.organization} logo`} />
                                     <div className={style.itemDetails}>
-                                        <h3>{`${experience.role}, ${experience.organization}`}</h3>
+                                        <h3>{`${experience.role}`}</h3>
+                                        <h2>{`${experience.organization}`} </h2>
                                         <p>{`${experience.startDate} - ${experience.endDate}`}</p>
                                         <ul>
                                             {experience.experiences.map((exp, id) => {

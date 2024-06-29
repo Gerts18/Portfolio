@@ -1,18 +1,27 @@
 [
     {
+      "title": "Los Revolucionarios",
+      "imageSrc": "projects/revo.png",
+      "description": "Website developed for a restaurant based on the owner's requirements to provide customers with information about their services. Additionally, administrative functions were included to allow the owner to modify the content as needed. ",
+      "skills": ["JavaScript: React", "Python: Django", "CSS"],
+      "demo": "https://revolucionarios2.vercel.app/",
+      "source": "https://github.com/M0ORI/los_revolucionarios"
+    },
+    {
+      "title": "Limdala",
+      "imageSrc": "projects/limdala.png",
+      "description": "Website designed to promote mental health for users. The goal is to offer resources and tools for mental wellness.",
+      "skills": ["JavaScript", "HTML", "CSS"],
+      "demo": "",
+      "source": "https://github.com/M0ORI/limdala"
+    },
+    {
       "title": "Computer Vision Project",
       "imageSrc": "projects/PapayasDetection.png",
       "description": "I was part of a team work in a two-month project where the primary focus was on utilizing neural networks and computer vision methods, specifically in Python and the main subject was about detecting the maturity of fruits.",
       "skills": ["Python", "OpenCV", "Ultralytics"],
       "demo": "",
       "source": "https://github.com/Gerts18/Computer-Vision-Project"
-    },
-    {
-      "title": "Future Project",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Django"],
-      "demo": "",
-      "source": ""
     }
+    
   ]

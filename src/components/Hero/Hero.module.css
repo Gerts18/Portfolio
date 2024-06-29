@@ -36,6 +36,12 @@
     margin-bottom: 30px;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .contactBtn{
     text-decoration: none;
     background-color: var( --color-primary);
@@ -100,11 +106,15 @@
 }
 
 @media screen and (max-width: 830px){
+    .title{
+        font-size: 62px;
+    }
     .container{
         flex-direction: column-reverse;
     }
 
     .content{
         align-items: center;
+        
     }
 }

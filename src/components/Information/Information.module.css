@@ -1,48 +1,49 @@
-@import '../../vars.css';
-
-.container{
+.container {
     display: flex;
     color: var(--color-text);
-    height: 128px;
+    height: auto;  
     flex-shrink: 0;
     border-radius: 20px;
     align-items: center;
     background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) -60.08%, rgba(255, 255, 255, 0.00) 66.02%);
     background-size: 0 100%;
-    background-repeat: no repeat;
-    transition: 0.4s; /*Time any transition take*/
+    background-repeat: no-repeat;
+    transition: background-size 0.4s ease-in-out; 
+    padding: 15px;  
+    will-change: background-size; 
 }
 
-.container:hover{
+.container:hover {
     background-size: 100% 100%;
+    transform: translateZ(0); 
 }
 
-.textContainer{
+.textContainer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 15px 15px;
+    padding: 15px;
     gap: 5px;
 }
 
-.image{
-    width: 70px;
-    height: 70px;
+.image {
+    width: 50px;  
+    height: 50px;
     flex-shrink: 0;
 }
 
-.title{
+.title {
     font-family: Outfit;
-    font-size: 25px;
+    font-size: 18px;  
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 1.25px;
 }
 
-.description{
+.description {
     font-family: Outfit;
-    font-size: 25px;
+    font-size: 20px;  
     font-style: normal;
     font-weight: 400;
     line-height: normal;

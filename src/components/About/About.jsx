@@ -16,7 +16,7 @@ const About = () => {
                     path={'about/cursorIcon.png'}    
                 />
                 <Information title={'My path'}
-                    description={'I started programming at university with a project to create a basic streaming app, which ignited my passion for coding. Since then, I have continuously learned through school resources and self-study. Currently, I focus on web development, particularly frontend, driven by my curiosity about web functions and animations. However, I also enjoy backend development for its data handling and dynamic aspects. I am very passionate when it comes to working and have experienced in carrying out projects in teams and based on specific requirements, skills I have developed thanks to university and various activities I have participated in.'}
+                    description={'I began programming at university with a basic project, which sparked my passion for coding. Since then, I have continuously learned through school and self-study. Currently, I focus on frontend web development, driven by curiosity about web functions, but I also practice backend development for its dynamic data handling. I am very passionate when it comes to working and have experience in team projects, thanks various activities.'}
                     path={'about/serverIcon.png'}
                 />
                 <Information title={'Hobbies'}

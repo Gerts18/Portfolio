@@ -8,12 +8,12 @@
       "source": "https://github.com/M0ORI/los_revolucionarios"
     },
     {
-      "title": "Limdala",
-      "imageSrc": "projects/limdala.png",
-      "description": "Website designed to promote mental health for users. The goal is to offer resources and tools for mental wellness.",
+      "title": "Alura Geek",
+      "imageSrc": "projects/AluraGeek.png",
+      "description": "This web application enables you to manage products efficiently. It allows you to create and delete products, ensuring your product list is always current. Additionally, the app includes features like form validations and custom messages to enhance user experience and data integrity.",
       "skills": ["JavaScript", "HTML", "CSS"],
-      "demo": "",
-      "source": "https://github.com/M0ORI/limdala"
+      "demo": "https://alura-geek-five-psi.vercel.app/",
+      "source": "https://github.com/Gerts18/AluraGeek"
     },
     {
       "title": "Computer Vision Project",

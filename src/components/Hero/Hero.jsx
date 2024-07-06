@@ -3,6 +3,14 @@ import { getImageUrl } from '../../utils'
 import styles from './Hero.module.css'
 
 const Hero = () => {
+
+  const handleDownload = (event) => {
+    const pdfurl = getImageUrl('files/German-Torres-Resume.pdf');
+    const element = event.target;
+    element.href = pdfurl;
+    element.download = 'German-Torres-Resume.pdf'
+  }
+
   return (
     <section className={styles.container}>
         <div className={styles.content}>
@@ -14,7 +22,7 @@ const Hero = () => {
             </p>
             <div className={styles.buttons}>
             <a className={styles.contactBtn} href="mailto:germants180@gmail.com">Contact Me</a>
-            <a className={styles.contactBtn} href="">Download CV</a>
+            <a className={styles.contactBtn} onClick={handleDownload}>Download CV</a>
             </div>
         </div>
         <img className={styles.heroImg} 

@@ -12,11 +12,11 @@ const Experience = () => {
         <div className={style.content}>
             <div>
                 <h2 className={style.title}>Skills</h2>
-                <div className={style.skillsContainer}>
+                <div className={style.skillsContainer} >
                     {
                         skills.map((skill, id) => {
                             return (
-                                <div className={style.skill} id={id}>
+                                <div className={style.skill} key={id}>
                                     <div className={style.skillImageContainer}>
                                         <img src={getImageUrl(skill.imageSrc)} alt={skill.title} />
                                     </div>

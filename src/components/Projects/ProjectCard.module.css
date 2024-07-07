@@ -78,5 +78,28 @@
 @media screen and (max-width: 830px) {
     .container{
         flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .image{
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description{
+        font-size: 18px;
+    }
+
+    .skill{
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 18px;
     }
 }

@@ -131,7 +131,38 @@
     }
 
     .experiencesContaniner{
-        width: 100%;
+        width: 90%;
         gap: 9px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+
+    .item{
+        padding-right: 10px;
+    }
+
+    .item img{
+        width: 20%;
+        height: 20%;
+    }
+
+    .item h3 {
+        font-size: 20px;
+    }
+
+    .item p{
+        font-size: 18px;
+    }
+
+    .item ul{
+        font-size: 20px;
+        margin: 0;
+        list-style-position: outside;
+    }
+
+    .item ul li {
+        margin-top: 10px;
     }
 }

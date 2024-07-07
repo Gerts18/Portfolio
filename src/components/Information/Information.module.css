@@ -49,3 +49,9 @@
     line-height: normal;
     letter-spacing: 1.25px;
 }
+
+@media screen and (max-width: 830px) {
+    .image {
+        display: none;
+    }
+}

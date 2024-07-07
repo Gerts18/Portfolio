@@ -58,9 +58,21 @@
         align-items: center;
     }
 
+    .text h2{
+        font-size: 60px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
     .links {
         align-items: center;
         justify-content: flex-start;
+    }
+
+    .link a {
+        font-size: 20px;
     }
     
 }

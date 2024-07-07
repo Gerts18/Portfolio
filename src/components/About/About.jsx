@@ -16,7 +16,7 @@ const About = () => {
                     path={'about/cursorIcon.png'}    
                 />
                 <Information title={'My path'}
-                    description={'I began programming at university with a basic project, which sparked my passion for coding. Since then, I have continuously learned through school and self-study. Currently, I focus on frontend web development, driven by curiosity about web functions, but I also practice backend development for its dynamic data handling. I am very passionate when it comes to working and have experience in team projects, thanks various activities.'}
+                    description={'I discovered my passion for coding at university. Since then, I have continuously learned throughself-study. Currently I focus on frontend web development out of curiosity about web functions, and I practice backend development for dynamic data handling. I have experience in collaborative projects through university and personal activities.'}
                     path={'about/serverIcon.png'}
                 />
                 <Information title={'Hobbies'}

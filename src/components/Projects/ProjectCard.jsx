@@ -25,7 +25,10 @@ const ProjectCard = ({project : {title, imageSrc, description, skills, demo, sou
                 </ul>
                 <div className={style.links}>
                     <a className={style.link} href={source} target='_blank'>Source</a>
-                    <a className={style.link} href={demo} target='_blank'>Demo</a>
+                    {
+                        demo == '' ? <></> : 
+                        <a className={style.link} href={demo} target='_blank'>Demo</a>
+                    }
                 </div>
             </div>
 

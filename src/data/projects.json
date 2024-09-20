@@ -8,6 +8,14 @@
       "source": "https://github.com/M0ORI/los_revolucionarios"
     },
     {
+      "title": "Pokemon API",
+      "imageSrc": "projects/poke.png",
+      "description": "I developed a web page that integrates the Pokémon API to display various Pokémon data, such as their names, types, and stats. The website allows users to search for specific Pokémon and view detailed information retrieved from the API in real-time, offering an interactive experience.",
+      "skills": ["JavaScript: React"],
+      "demo": "https://poke-api-full.vercel.app/",
+      "source": "https://github.com/Gerts18/PokeApi"
+    },
+    {
       "title": "Alura Geek",
       "imageSrc": "projects/AluraGeek.png",
       "description": "This web application enables you to manage products efficiently. It allows you to create and delete products, ensuring your product list is always current. Additionally, the app includes features like form validations and custom messages to enhance user experience and data integrity.",

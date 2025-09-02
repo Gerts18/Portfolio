@@ -1,26 +1,22 @@
 [
     {
-        "title": "PYTHON",
-        "imageSrc": "skills/python.png"
-    },
-    {
         "title": "DJANGO",
         "imageSrc": "skills/django.png"
     },
     {
-        "title": "HTML",
-        "imageSrc": "skills/html.png"
-    },
-    {
-        "title": "CSS",
-        "imageSrc": "skills/css.png"
-    },
-    {
-        "title": "JAVASCRIPT",
-        "imageSrc": "skills/JS.png"
+        "title": "TYPESCRIPT",
+        "imageSrc": "skills/typescript.png"
     },
     {
         "title": "REACT",
         "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "LARAVEL",
+        "imageSrc": "skills/Laravel.png"
+    },
+    {
+        "title": "NEXTJS",
+        "imageSrc": "skills/nextjs.png"
     }
 ]

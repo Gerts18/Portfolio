@@ -1,5 +1,21 @@
 [
     {
+        "role": "Programer/Investigator",
+        "organization": "Delfin Program 2025 Edition",
+        "startDate": "June 2025",
+        "endDate": "August 2025",
+        "experiences": ["Practiced coding and learned about best practices", "I developed a Progressive Web App"],
+        "imageSrc": "history/DELFIN.png"
+    },
+    {
+        "role": "Full Stack Web Developer",
+        "organization": "University Social Service", 
+        "startDate": "January 2025",
+        "endDate": "June 2025",
+        "experiences": ["Created and maintained an institutional website", "Learned about Design Patterns and Clean Code", "Followed weekly stand-ups and participated in code reviews"],
+        "imageSrc": "history/TEC.png"
+    },
+    {
         "role": "Part-time Software Developer",
         "organization": "Freelancer",
         "startDate": "July 2024",
@@ -9,11 +25,11 @@
     },
     {
         "role": "Programer/Investigator",
-        "organization": "Delfin Program",
+        "organization": "Delfin Program 2023 edition",
         "startDate": "June 2023",
         "endDate": "August 2023",
         "experiences": ["Learned about Computer Vision", "I created a CNN"],
-        "imageSrc": "history/pDelfin.png"
+        "imageSrc": "history/DELFIN.png"
     }
     
 ]

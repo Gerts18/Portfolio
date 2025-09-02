@@ -1,4 +1,12 @@
 [
+  {
+      "title": "Inventory Management System",
+      "imageSrc": "projects/inventory.png",
+      "description": "This web site is my biggest project to date, showcasing my skills in full-stack development. Using laravel with react started kit, I was able to create a robust and scalable application, with roles, middleware, and a well-structured database that allows you to manage inventory efficiently.",
+      "skills": ["Typescript: React", "PHP: Laravel", "MVC"],
+      "demo": "",
+      "source": ""
+    },
     {
       "title": "Los Revolucionarios",
       "imageSrc": "projects/revo.png",
@@ -22,6 +30,14 @@
       "skills": ["JavaScript", "HTML", "CSS"],
       "demo": "https://alura-geek-five-psi.vercel.app/",
       "source": "https://github.com/Gerts18/AluraGeek"
+    },
+    {
+      "title": "Ficmac - Health Page",
+      "imageSrc": "projects/ficmac.png",
+      "description": "To learn Nextjs I build a web site along site a team of companions. With this project, I gained valuable experience in web applications using modern frameworks, working in a collaborative environment.",
+      "skills": ["Typescript: Nextjs"],
+      "demo": "https://ficmac-health-page-v2.onrender.com/",
+      "source": "https://github.com/Gerts18/health-page"
     },
     {
       "title": "Computer Vision Project",

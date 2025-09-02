@@ -16,9 +16,9 @@ const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm German</h1>
             <p className={styles.description}>
-                I'm a Web Developer. 
+                I am a Web Developer. 
                 <br></br>
-                Take a look of what I'm capable of.
+                Take a look of what I am capable of.
             </p>
             <div className={styles.buttons}>
             <a className={styles.contactBtn} href="mailto:germants180@gmail.com">Contact Me</a>

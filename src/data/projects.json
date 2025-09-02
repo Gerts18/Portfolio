@@ -32,6 +32,14 @@
       "source": "https://github.com/Gerts18/AluraGeek"
     },
     {
+      "title": "SIM - CLE",
+      "imageSrc": "projects/AluraGeek.png",
+      "description": "",
+      "skills": ["PHP: Laravel"],
+      "demo": "https://sim-cle.morelia.tecnm.mx/login",
+      "source": ""
+    },
+    {
       "title": "Ficmac - Health Page",
       "imageSrc": "projects/ficmac.png",
       "description": "To learn Nextjs I build a web site along site a team of companions. With this project, I gained valuable experience in web applications using modern frameworks, working in a collaborative environment.",

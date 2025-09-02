@@ -3,7 +3,7 @@
       "title": "Inventory Management System",
       "imageSrc": "projects/inventory.png",
       "description": "This web site is my biggest project to date, showcasing my skills in full-stack development. Using laravel with react started kit, I was able to create a robust and scalable application, with roles, middleware, and a well-structured database that allows you to manage inventory efficiently.",
-      "skills": ["Typescript: React", "PHP: Laravel", "MVC"],
+      "skills": ["Typescript: React", "PHP: Laravel"],
       "demo": "",
       "source": ""
     },
@@ -33,8 +33,8 @@
     },
     {
       "title": "SIM - CLE",
-      "imageSrc": "projects/AluraGeek.png",
-      "description": "",
+      "imageSrc": "projects/cle.png",
+      "description": "Built a scalable institutional website with dynamic Livewire components for real-time validation, delivering features across sprints in collaboration with cross-functional teams while adhering to Git best practices.",
       "skills": ["PHP: Laravel"],
       "demo": "https://sim-cle.morelia.tecnm.mx/login",
       "source": ""

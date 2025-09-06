@@ -5,23 +5,23 @@
       "description": "This web site is my biggest project to date, showcasing my skills in full-stack development. Using laravel with react started kit, I was able to create a robust and scalable application, with roles, middleware, and a well-structured database that allows you to manage inventory efficiently.",
       "skills": ["Typescript: React", "PHP: Laravel"],
       "demo": "",
-      "source": ""
-    },
-    {
-      "title": "Los Revolucionarios",
-      "imageSrc": "projects/revo.png",
-      "description": "Website developed for a restaurant based on the owner's requirements to provide customers with information about their services. Additionally, administrative functions were included to allow the owner to modify the content as needed. ",
-      "skills": ["JavaScript: React", "Python: Django", "CSS"],
-      "demo": "https://revolucionarios2.vercel.app/",
-      "source": "https://github.com/M0ORI/los_revolucionarios"
+      "source": "https://github.com/Gerts18/SISTEMA_INVENTARIOS"
     },
     {
       "title": "Pokemon API",
       "imageSrc": "projects/poke.png",
       "description": "I developed a web page that integrates the Pokémon API to display various Pokémon data, such as their names, types, and stats. The website allows users to search for specific Pokémon and view detailed information retrieved from the API in real-time, offering an interactive experience.",
-      "skills": ["JavaScript: React"],
+      "skills": ["JavaScript: React, Vite"],
       "demo": "https://poke-api-full.vercel.app/",
       "source": "https://github.com/Gerts18/PokeApi"
+    },
+    {
+      "title": "Los Revolucionarios",
+      "imageSrc": "projects/revo.png",
+      "description": "Website developed for a restaurant based on the owner's requirements to provide customers with information about their services. Additionally, administrative functions were included to allow the owner to modify the content as needed. ",
+      "skills": ["JavaScript: React", "Python: Django", "Vite"],
+      "demo": "https://revolucionarios2.vercel.app/",
+      "source": "https://github.com/M0ORI/los_revolucionarios"
     },
     {
       "title": "Alura Geek",

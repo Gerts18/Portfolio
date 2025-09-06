@@ -4,11 +4,14 @@ import styles from './Hero.module.css'
 
 const Hero = () => {
 
-  const handleDownload = (event) => {
+  const handleDownload = () => {
     const pdfurl = getImageUrl('files/German-Torres-Resume.pdf');
-    const element = event.target;
-    element.href = pdfurl;
-    element.download = 'German-Torres-Resume.pdf'
+    const link = document.createElement('a');
+    link.href = pdfurl;
+    link.download = 'German-Torres-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
 
   return (
@@ -22,7 +25,7 @@ const Hero = () => {
             </p>
             <div className={styles.buttons}>
             <a className={styles.contactBtn} href="mailto:germants180@gmail.com">Contact Me</a>
-            <a className={styles.contactBtn} onClick={handleDownload}>Download CV</a>
+            <button className={styles.contactBtn} onClick={handleDownload}>Download CV</button>
             </div>
         </div>
         <img className={styles.heroImg} 

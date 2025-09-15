@@ -1,17 +1,23 @@
 import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './Hero.module.css'
+import resumePDF from '../../../assets/files/German-Torres-Resume.pdf'
 
 const Hero = () => {
 
   const handleDownload = () => {
-    const pdfurl = '/assets/files/German-Torres-Resume.pdf';
-    const link = document.createElement('a');
-    link.href = pdfurl;
-    link.download = 'German-Torres-Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    try {
+      const link = document.createElement('a');
+      link.href = resumePDF; 
+      link.download = 'German-Torres-Resume.pdf';
+      link.target = '_blank';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    } catch (error) {
+      console.error('Error downloading CV:', error);
+      window.open(resumePDF, '_blank');
+    }
   }
 
   return (
@@ -25,13 +31,12 @@ const Hero = () => {
             </p>
             <div className={styles.buttons}>
             <a className={styles.contactBtn} href="mailto:germants180@gmail.com">Contact Me</a>
-            <a 
+            <button 
               className={styles.contactBtn} 
-              href="/assets/files/German-Torres-Resume.pdf"
-              download="German-Torres-Resume.pdf"
+              onClick={handleDownload}
             >
               Download CV
-            </a>
+            </button>
             </div>
         </div>
         <img className={styles.heroImg} 

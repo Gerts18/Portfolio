@@ -4,7 +4,7 @@
         "organization": "One Oracle Next Education Bootcamp",
         "startDate": "January 2024",
         "endDate": "July 2024",
-        "experiences": ["Learned about Web Developing", "Specialization on Front End"],
+        "experiences": ["I learned about Web Developing", "Specialization on Front End"],
         "imageSrc": "history/alura.png"
     },
     {
@@ -12,7 +12,7 @@
         "organization": "Instituto Tecnológico de Morelia",
         "startDate": "August 2021",
         "endDate": "December 2025",
-        "experiences": ["Learned basic concepts of programming", "Adquired Knowledge about Computer Architecture", "Learned about Operating Sytems"],
+        "experiences": ["Learned basic concepts of programming", "Adquired Knowledge about Computer Architecture", "Learned about Operating Sytems", "Practiced my capacity of collaboration in teams"],
         "imageSrc": "history/Itmorelia.png"
     }
 ]

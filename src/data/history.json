@@ -1,10 +1,10 @@
 [
     {
         "role": "Programer/Investigator",
-        "organization": "Delfin Program 2025 Edition",
+        "organization": "Dolphin Program 2025 Edition",
         "startDate": "June 2025",
         "endDate": "August 2025",
-        "experiences": ["Practiced coding and learned about best practices", "I developed a Progressive Web App"],
+        "experiences": ["I collaborated with a multidisciplinary team at International Level", "Successfully achieved and reported the anticipated outcomes of the research." , "Practiced coding and learned about best practices of development", "Developed a Progressive Web App (PWA) for project managment"],
         "imageSrc": "history/DELFIN.png"
     },
     {
@@ -25,10 +25,10 @@
     },
     {
         "role": "Programer/Investigator",
-        "organization": "Delfin Program 2023 Edition",
+        "organization": "Dolphin Program 2023 Edition",
         "startDate": "June 2023",
         "endDate": "August 2023",
-        "experiences": ["Learned about Computer Vision", "I created a CNN"],
+        "experiences": ["Learned about Computer Vision", "Created a CNN"],
         "imageSrc": "history/DELFIN.png"
     }
     

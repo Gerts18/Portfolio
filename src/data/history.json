@@ -1,18 +1,39 @@
 [
     {
+        "role": "Part-time Back End Developer",
+        "organization": "IDEAPP ",
+        "startDate": "February 2026",
+        "endDate": "Current",
+        "experiences": [
+            "Refactored the Smart Lunch platform using Django to enhance system scalability.",
+            "Restructured core data models to eliminate redundancy and improve data integrity.",
+            "Optimized database performance by resolving N+1 query issues and ORM bottlenecks."
+        ],
+        "imageSrc": "history/ideapp.jpg"
+    },
+    {
         "role": "Programer/Investigator",
         "organization": "Dolphin Program 2025 Edition",
         "startDate": "June 2025",
         "endDate": "August 2025",
-        "experiences": ["I collaborated with a multidisciplinary team at International Level", "Successfully achieved and reported the anticipated outcomes of the research." , "Practiced coding and learned about best practices of development", "Developed a Progressive Web App (PWA) for project managment"],
+        "experiences": [
+            "I collaborated with a multidisciplinary team at International Level",
+            "Successfully achieved and reported the anticipated outcomes of the research.",
+            "Practiced coding and learned about best practices of development",
+            "Developed a Progressive Web App (PWA) for project managment"
+        ],
         "imageSrc": "history/DELFIN.png"
     },
     {
         "role": "Full Stack Web Developer",
-        "organization": "University Social Service", 
+        "organization": "University Social Service",
         "startDate": "January 2025",
         "endDate": "June 2025",
-        "experiences": ["Created and maintained an institutional website", "Learned about Design Patterns and Clean Code", "Followed weekly stand-ups and participated in code reviews"],
+        "experiences": [
+            "Created and maintained an institutional website",
+            "Learned about Design Patterns and Clean Code",
+            "Followed weekly stand-ups and participated in code reviews"
+        ],
         "imageSrc": "history/TEC.png"
     },
     {
@@ -20,7 +41,11 @@
         "organization": "Freelancer",
         "startDate": "July 2024",
         "endDate": "December 2024",
-        "experiences": ["Developed and maintained codebases","Built and deployed CRUDs", "Employed Docker containers and cloud services"],
+        "experiences": [
+            "Developed and maintained codebases",
+            "Built and deployed CRUDs",
+            "Employed Docker containers and cloud services"
+        ],
         "imageSrc": "history/Freelancer.png"
     },
     {
@@ -28,8 +53,10 @@
         "organization": "Dolphin Program 2023 Edition",
         "startDate": "June 2023",
         "endDate": "August 2023",
-        "experiences": ["Learned about Computer Vision", "Created a CNN"],
+        "experiences": [
+            "Learned about Computer Vision",
+            "Created a CNN"
+        ],
         "imageSrc": "history/DELFIN.png"
     }
-    
 ]

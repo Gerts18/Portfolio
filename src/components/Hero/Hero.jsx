@@ -25,7 +25,7 @@ const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm German</h1>
             <p className={styles.description}>
-                I am a Web Developer. 
+                I am a Software Developer. 
                 <br></br>
                 Take a look of what I am capable of.
             </p>

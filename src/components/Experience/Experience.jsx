@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import skills from '../../data/skills.json'
 import history from '../../data/history.json'

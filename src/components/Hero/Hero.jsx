@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { getImageUrl } from '../../utils'
 import styles from './Hero.module.css'
 import resumePDF from '../../../assets/files/German-Torres-Resume.pdf'
@@ -25,7 +25,7 @@ const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm German</h1>
             <p className={styles.description}>
-                I am a Software Developer. 
+                I am a Software Engineer. 
                 <br></br>
                 Take a look of what I am capable of.
             </p>

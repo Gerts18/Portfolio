@@ -1,5 +1,9 @@
 [
     {
+        "title": "PYTHON",
+        "imageSrc": "skills/python.png"
+    },
+    {
         "title": "DJANGO",
         "imageSrc": "skills/django.png"
     },
@@ -8,15 +12,15 @@
         "imageSrc": "skills/typescript.png"
     },
     {
+        "title": "JAVASCRIPT",
+        "imageSrc": "skills/JS.png"
+    },
+    {
         "title": "REACT",
         "imageSrc": "skills/react.png"
     },
     {
         "title": "LARAVEL",
         "imageSrc": "skills/Laravel.png"
-    },
-    {
-        "title": "NEXTJS",
-        "imageSrc": "skills/nextjs.png"
     }
 ]

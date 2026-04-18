@@ -1,4 +1,3 @@
-import React from 'react'
 import { getImageUrl } from '../../utils'
 import style from './ProjectCard.module.css'
 
@@ -24,7 +23,10 @@ const ProjectCard = ({project : {title, imageSrc, description, skills, demo, sou
                     }
                 </ul>
                 <div className={style.links}>
-                    <a className={style.link} href={source} target='_blank'>Source</a>
+                    {
+                        source == '' ? <></> :
+                        <a className={style.link} href={source} target='_blank'>Source</a>
+                    }
                     {
                         demo == '' ? <></> : 
                         <a className={style.link} href={demo} target='_blank'>Demo</a>

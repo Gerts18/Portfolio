@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { getImageUrl } from '../../utils'
 import styles from './About.module.css'
 import Information from '../Information/Information'
@@ -12,11 +12,11 @@ const About = () => {
             </div>
             <div className={styles.informationItems}>
                 <Information title={'Introduction'}
-                    description={'Hello! I am German Torres Sierra, I am 20 years old and currently live in the city of Morelia, in the beautiful country of Mexico, where I was born and raised.'}
+                    description={'Hello! I am German Torres Sierra, I am 22 years old and currently live in the city of Morelia, in the beautiful country of Mexico, where I was born and raised.'}
                     path={'about/cursorIcon.png'}    
                 />
                 <Information title={'My path'}
-                    description={'I discovered my passion for coding at university. Since then, I have continuously learned throughself-study. Currently I focus on frontend web development out of curiosity about web functions, and I practice backend development for dynamic data handling. I have experience in collaborative projects through university and personal activities.'}
+                    description={'I discovered my passion for coding at university. Since then, I have continuously learned throughself-study. Currently I  am focused on web development, but I am always open to exploring new technologies and expanding my skill set.'}
                     path={'about/serverIcon.png'}
                 />
                 {/* <Information title={'Hobbies'}

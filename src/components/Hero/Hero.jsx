@@ -9,7 +9,7 @@ const Hero = () => {
     try {
       const link = document.createElement('a');
       link.href = resumePDF; 
-      link.download = 'German-Torres-Resume.pdf';
+      link.download = 'German_Torres_Resume.pdf';
       link.target = '_blank';
       document.body.appendChild(link);
       link.click();

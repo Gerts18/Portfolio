@@ -2,8 +2,8 @@
     {
         "role": "Software Engineer",
         "organization": "IDEAPP ",
-        "startDate": "February 2026",
-        "endDate": "Current",
+        "startDate": "January 2026",
+        "endDate": "June 2026",
         "experiences": [
             "Refactored the Smart Lunch platform using Django to enhance system scalability.",
             "Restructured core data models to eliminate redundancy and improve data integrity.",

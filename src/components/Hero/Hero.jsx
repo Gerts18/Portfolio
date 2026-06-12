@@ -1,7 +1,7 @@
 
 import { getImageUrl } from '../../utils'
 import styles from './Hero.module.css'
-import resumePDF from '../../../assets/files/German-Torres-Resume.pdf'
+import resumePDF from '../../../assets/files/German_Torres_Resume.pdf'
 
 const Hero = () => {
 
